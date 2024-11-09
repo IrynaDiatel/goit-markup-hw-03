@@ -146,6 +146,12 @@ a {
   background-color: #4d5ae5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  border: none;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .order-service-button:hover {
   background-color: #404bbf;
@@ -162,7 +168,7 @@ a {
   padding: 120px 0;
 }
 
-.our-advantages-title {
+.visually-hidden {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
