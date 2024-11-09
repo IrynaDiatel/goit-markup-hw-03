@@ -24,6 +24,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #2e2f42;
 }
 
 /* common */
@@ -96,7 +97,6 @@ a {
 }
 .contacts-list {
   display: flex;
-  align-items: center;
   gap: 40px;
 }
 
@@ -122,6 +122,8 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  align-items: center;
 }
 .order-service-button {
   background-color: #4d5ae5;
@@ -136,6 +138,7 @@ a {
   display: block;
   border-radius: 4px;
   border: none;
+  align-items: center;
 }
 .order-service-button:hover {
   background-color: #404bbf;
@@ -205,6 +208,8 @@ a {
 
 .our-team-item {
   background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 .member-name {
   font-weight: 500;
