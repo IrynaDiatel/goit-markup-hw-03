@@ -131,6 +131,11 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  display: block;
+  border-radius: 4px;
+  border: none;
 }
 .order-service-button:hover {
   background-color: #404bbf;
@@ -144,6 +149,7 @@ a {
 
 .advantages-section {
   background-color: #ffffff;
+  padding: 120px 0;
 }
 
 .our-advantages-title {
@@ -156,6 +162,8 @@ a {
 
 .advantages-list {
   background-color: #ffffff;
+  display: flex;
+  gap: 24px;
 }
 .advantages-item {
   background-color: #ffffff;
@@ -214,7 +222,10 @@ a {
 }
 
 /*Our Portfolio*/
-
+.our-portfolio-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .our-portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -223,13 +234,19 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .our-portfolio-list {
   background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .our-portfolio-item {
   background-color: #ffffff;
+  width: calc((100% - 48px) / 3);
 }
 .section-title {
   font-weight: 500;
@@ -238,7 +255,11 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
+.our-portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .our-portfolio-description {
   font-size: 16px;
   line-height: 1.5;
@@ -250,11 +271,16 @@ a {
 
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo .logo-part {
   color: #f4f4fd;
   display: inline-block;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -262,4 +288,5 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
