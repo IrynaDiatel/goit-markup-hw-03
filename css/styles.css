@@ -1,6 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   background-color: #fff;
 }
 
@@ -190,6 +193,7 @@ a {
 /*Our Team*/
 .our-team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team-title {
@@ -203,33 +207,34 @@ a {
 }
 
 .our-team-list {
-  background-color: #ffffff;
+  display: flex;
+  gap: 24px;
 }
 
 .our-team-item {
-  background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
+
   border-radius: 0 0 4px 4px;
+  background-color: #ffffff;
 }
 .member-name {
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #2e2f42;
 }
 
 .member-role {
-  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  text-align: center;
 }
 
 /*Our Portfolio*/
 .our-portfolio-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .our-portfolio-title {
   font-weight: 700;
@@ -242,7 +247,6 @@ a {
   margin-bottom: 72px;
 }
 .our-portfolio-list {
-  background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -250,7 +254,6 @@ a {
 }
 
 .our-portfolio-item {
-  background-color: #ffffff;
   width: calc((100% - 48px) / 3);
 }
 .section-title {
@@ -262,8 +265,10 @@ a {
 }
 .our-portfolio-container {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
+
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 .our-portfolio-description {
   font-size: 16px;
